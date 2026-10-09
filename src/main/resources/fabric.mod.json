@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "snooze",
+  "version": "${version}",
+  "name": "Snooze Client",
+  "description": "Modernes Utility-Client fuer Fabric mit Pouch-Theme.",
+  "authors": ["you"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.snooze.SnoozeClient"] },
+  "depends": { "fabricloader": ">=0.18.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
